@@ -41,6 +41,8 @@ Language models
 
 		- DistilBERT and RoBERTA (~2020)
 
+		Main usecase: Generate embeddings
+
 	3. Decoder-only models
 
 		- All GPT-based models (GPT in 2018, GPT-2 in 2019 and GPT-3 in 2021)
@@ -64,6 +66,8 @@ Language models
 		- T5, Switch, and Flan-T5
 
 		- The encoder-decoder architecture has a sequential dependency: you must fully encode the input before the decoder can start. That's two separate phases.
+
+		Note: Modern LLM's mostly rely on decoder-only architectures, although LLM's can be built via several architectures listed here (above), and also those that aren't. 
 
 Mixture of Experts (MoE)
 
